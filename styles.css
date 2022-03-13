@@ -1,0 +1,164 @@
+:root {
+    --light-blue: #0ea5a9;
+    --dark-grape: rgba(93, 94, 168, 0.788);
+    --white-gray: #f5f5f5;
+    --light-gray: #e5e5e5;
+    --dark-gray: #d4d4d4;
+    --black-gray: #737373;
+    --almost-black: #404040;
+    --full-black: #171717;
+    font-family: 'Nunito', sans-serif;
+}
+
+.background {
+    background-color: var(--white-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 1024px;
+    background-color: #ffffff;
+    box-shadow: 0.4em 0.4em 30px rgba(121, 121, 121, 0.185);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 895px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img {
+    height: 895px;
+    width: 44%;
+    background-image: url(img/seoul3.jpg);
+    border-radius: 17px 0 0 17px;
+    background-position: center;
+}
+
+.content {
+    height: 895px;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 40px 0 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(199, 196, 196, 0.411);
+}
+
+.h3 {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.registration-h {
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--dark-grape);
+    margin-bottom: 30px;
+}
+
+input.input-box {
+    height: 34px;
+    width: 235px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(199, 196, 196, 0.781);
+}
+
+input.input-box:focus {
+    border: 1px solid blueviolet;
+    outline: #0ea5a9;
+}
+
+.p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--almost-black);
+}
+
+.h2 {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.adress-h2 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.input-box2 {
+    height: 34px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(199, 196, 196, 0.781);
+    width: 150px;
+}
+
+input.input-box2:focus {
+    border: 1px solid blueviolet;
+    outline: #0ea5a9;
+}
+
+.input-box3 {
+    height: 34px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(199, 196, 196, 0.781);
+    width: 490px;
+}
+
+input.input-box3:focus {
+    border: 1px solid blueviolet;
+    outline: #0ea5a9;
+}
+
+.p1 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--black-gray);
+    margin-top: -20px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+
+.p3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--almost-black);
+    margin-bottom: 20px;
+}
+
+.button {
+    height: 40px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(199, 196, 196, 0.781);
+    width: 490px;
+    background-color: var(--dark-grape);
+    text-align: center;
+    color: var(--white-gray);
+    font-weight: 600;
+    margin: 20px 40px 0 40px;
+}
+
+.button:hover {
+    background-color: rgba(70, 71, 128, 0.788);
+}
