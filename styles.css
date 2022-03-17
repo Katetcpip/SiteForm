@@ -35,7 +35,9 @@
 .img {
     height: 895px;
     width: 44%;
-    background-image: url(img/seoul3.jpg);
+    background-image: url(img/asia2.jpg);
+    background-position: center;
+    background-size: auto;
     border-radius: 17px 0 0 17px;
     background-position: center;
 }
@@ -161,4 +163,19 @@ input.input-box3:focus {
 
 .button:hover {
     background-color: rgba(70, 71, 128, 0.788);
+}
+
+.custom-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.custom-checkbox:checked {
+    background-image: url('img/icon.png');
+    background-position: center;
+    background-size: contain;
+    background-color: var(--light-gray);
 }
